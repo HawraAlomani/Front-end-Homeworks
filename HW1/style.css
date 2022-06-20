@@ -19,7 +19,7 @@ html {
     top: 0;
     height: 350px;
     width: 100%;
-    background-image: url('/soup.jpeg') ;
+    background-image: url('soup.jpeg') ;
     background-size:cover;
     object-fit: cover;
 }
