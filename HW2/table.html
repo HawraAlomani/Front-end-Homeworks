@@ -1,0 +1,142 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Lamp Store</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Background-->
+    <video autoplay muted loop id="liveBackground">
+      <source src="images/liveBackground.mp4" type="video/mp4" />
+    </video>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">3D Lights</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Shipping Information</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+    <div class="mainContainer">
+        <h3>   <img id="ship-img" src="icons/Shipping.png"> Shipping Information  </h3>
+      
+        <table class="table table-hover">
+            <tbody>
+              <tr class="table-primary">
+                <th scope="row">Country</th>
+                <td>Shipment Period</td>
+                <td>Shipping Policy</td>
+                <td>Price</td>
+              </tr>
+          
+              <tr class="table-dark">
+                <th scope="row">Saudi Arabia</th>
+                <td>2-3 days</td>
+                <td>Refundable</td>
+                <td>Free Shipping</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Bahrain</th>
+                <td>5-7 days</td>
+                <td>Nonrefundable</td>
+                <td>15 SR</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Kuwait</th>
+                <td>1 week</td>
+                <td>Nonrefundable</td>
+                <td>30 SR</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Oman</th>
+                <td>1 week</td>
+                <td>Nonrefundable</td>
+                <td>35 SR</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Internationally</th>
+                <td>1-2 weeks</td>
+                <td>Nonrefundable</td>
+                <td>50 SR</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+ 
+    <!--Using Grid-->
+
+    <h1 class="contact">Contact Us</h1>
+    <!-- thumbnail means to give it rounded border-->
+    <img src="">
+    <div class="grid-container">
+      <div class="item">
+        <h4>Phone</h4>
+
+        <img src="icons/Phone.png" />  
+      </div>
+      <div class="item">
+        <h4>WhatsApp</h4>
+        <img src="icons/WhatsApp.png" />
+      </div>
+      <div class="item">
+        <h4>Twitter</h4>
+        <img src="icons/Twitter.png" />
+      </div>
+      <div class="item">
+        <h4>Snapchat</h4>
+        <img src="icons/Snapchat.png" />
+      </div>
+    </div>
+  </body>
+</html>

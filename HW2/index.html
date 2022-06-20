@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Lamp Store</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Background-->
+    <video autoplay muted loop id="liveBackground">
+      <source src="images/liveBackground.mp4" type="video/mp4" />
+    </video>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">3D Lights</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Shipping Information</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+    <div class="mainContainer">
+      <!--bootstap cards-->
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color: rgba(255, 255, 255, 0.18)">
+            <h3 class="card-header">HunterXHunter</h3>
+            <img class="img-fluid" src="images/img1.jpeg" /> <!--Resposive images means it scales based on the card.-->
+            <div class="card-body">
+              <p class="card-text">3D anime light for Killua.</p>
+              <span class="badge rounded-pill bg-info">75 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+
+       
+        <!-- Card 2 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)">
+            <h3 class="card-header">One Piece</h3>
+            <img  class="img-fluid" src="images/img4.jpeg" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Zoro.</p>
+              <span class="badge rounded-pill bg-info">80 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+
+            </div>
+          </div>
+        </div>
+         <!-- Card 3 -->
+         <div class="col">
+            <div
+              class="card mb-3"
+              style="background-color:  rgba(255, 255, 255, 0.18)"
+            >
+              <h3 class="card-header">HunterXHunter</h3>
+              <img class="img-fluid" src="images/img2.jpeg" />
+              <div class="card-body">
+                <p class="card-text">3D anime light for Hisoka.</p>
+                <span class="badge rounded-pill bg-info">100 SR</span>
+                <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+              </div>
+            </div>
+          </div>
+        
+        <!-- Card 4 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)"
+          >
+            <h3 class="card-header">Attack On Titans</h3>
+            <img class="img-fluid" src="images/img5.webp" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Levi.</p>
+              <span class="badge rounded-pill bg-info">110 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col">
+            <div
+              class="card mb-3"
+              style="background-color:  rgba(255, 255, 255, 0.18)"
+            >
+              <h3 class="card-header">Naruto</h3>
+              <img class="img-fluid" src="images/img7.webp"/>
+              <div class="card-body">
+                <p class="card-text">3D anime light for Kakashi.</p>
+                <span class="badge rounded-pill bg-info">75 SR</span>
+                <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+              </div>
+            </div>
+          </div>
+
+        <!-- Card 6 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)"
+          >
+            <h3 class="card-header">Tokyo Revengers</h3>
+            <img class="img-fluid" src="images/img6.jpeg" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Mikey.</p>
+              <span class="badge rounded-pill bg-info">75 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Card 7 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)"
+          >
+            <h3 class="card-header">Naruto</h3>
+            <img class="img-fluid" src="images/img8.jpg" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Naruto.</p>
+              <span class="badge rounded-pill bg-info">90 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)"
+          >
+            <h3 class="card-header">Haikyū</h3>
+            <img class="img-fluid" src="images/img9.jpg" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Yamaguchi.</p>
+              <span class="badge rounded-pill bg-info">50 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 9 -->
+        <div class="col">
+          <div
+            class="card mb-3"
+            style="background-color:  rgba(255, 255, 255, 0.18)"
+          >
+            <h3 class="card-header"> The Promised Neverland</h3>
+            <img class="img-fluid" src="images/img10.jpg" />
+            <div class="card-body">
+              <p class="card-text">3D anime light for Emma.</p>
+              <span class="badge rounded-pill bg-info">75 SR</span>
+              <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="col">
+            <div
+              class="card mb-3"
+              style="background-color:  rgba(255, 255, 255, 0.18)"
+            >
+              <h3 class="card-header">Detective Conan</h3>
+              <img class="img-fluid" src="images/img5.jpg" />
+              <div class="card-body">
+                <p class="card-text">3D anime light for Conan.</p>
+                <span class="badge rounded-pill bg-info">65 SR</span>
+                <button type="button" class="btn btn-secondary" id="buttons">Buy</button>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <!--Using Grid-->
+
+    <h1 class="contact">Contact Us</h1>
+    <!-- thumbnail means to give it rounded border-->
+    <img src="">
+    <div class="grid-container">
+      <div class="item">
+        <h4>Phone</h4>
+
+        <img src="icons/Phone.png" />  
+      </div>
+      <div class="item">
+        <h4>WhatsApp</h4>
+        <img src="icons/WhatsApp.png" />
+      </div>
+      <div class="item">
+        <h4>Twitter</h4>
+        <img src="icons/Twitter.png" />
+      </div>
+      <div class="item">
+        <h4>Snapchat</h4>
+        <img src="icons/Snapchat.png" />
+      </div>
+    </div>
+  </body>
+</html>
